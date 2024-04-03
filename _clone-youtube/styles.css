@@ -1,0 +1,80 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #f9f9f9;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 90px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.search-bar-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar-container input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-bar-container button {
+    padding: 8px 12px;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user-info img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+/* Estilos do conteúdo do vídeo */
+.video-container {
+    margin-right: 20px;
+}
+
+.video-container iframe {
+    width: 800px;
+    height: 450px;
+}
+
+/* Estilos da barra lateral */
+.sidebar {
+    background-color: #f9f9f9;
+    padding: 20px;
+    width: 400px;
+}
+
+.sidebar h2 {
+    margin-bottom: 10px;
+}
+
+.sidebar p {
+    line-height: 1.5;
+}
